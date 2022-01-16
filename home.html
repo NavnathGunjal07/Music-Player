@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c419c95711.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- ....................................................HEADER..................................................... -->
+    <header id="body-header">
+            <div class="music-player-logo">
+                    <div id ="logo-name">
+                        <t1>
+                            Snowflake
+                        </t1>
+                        <t2>
+                            Music
+                        </t2>
+                        <t3>
+                            Player
+                        </t3> 
+                    </div>
+            </div>
+            
+            <div id ="favourites">
+                <a href="#">
+                    Favourites
+                </a>
+            
+            </div>
+            <div id= "search-bar">
+                <div  id="search-bar-symbol">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div id="search-id">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div id = "search-bar-mic">
+                        <a href="#">
+                            <i class="fas fa-microphone"></i>
+                    </a>
+                </div>
+            
+
+            </div>
+            <div id="notification-bar">
+                <a href = "#">
+                    <i class="fas fa-bell"></i>
+                </a>
+            </div>
+            <div id="profile-photo">
+                <div id="profile-photo-img">
+                    <a href="#">
+                        <img src = "images\circle-cropped1.png">
+                    </a>
+                </div>
+            </div>
+    </header>
+<!-- .............................................................MAIN..................................................... -->
+    <main>
+        <section>
+            <div id="front-images">
+                <div id="image-front">
+                    <a href="">
+                        <img src="images\front-image.jpg">
+                    </a>
+                </div>
+                <div id="back-image">
+                    <img src="images\back-image2.jpg">
+                </div>
+                <div id="back-image1">
+                    <img src="images\back-image1.jpg">
+                </div>
+            </div>
+            
+<!-- ........................................LATEST RELEASES.......................... -->  
+            <div id="latest-releases">
+                <span id="player-headings">
+                    Latest Releases
+                </span>
+                <div class="latest-releases-contianer">
+                    <div class="latest-releases-box">
+                        <div id="latest-releases-box-image">
+                            <a href="singlescreenplaylist.html">
+                                <img src="images\latest-release1.jfif">
+                            </a>
+                        </div>
+                        <div id="latest-releases-box-description">
+                            Ranjha<br><texttagsinger>june 2021</texttagsinger>
+                        </div>
+                        <div id="latest-releases-box-timings">
+                            <a href="singlescreenplaylist.html">
+                                <i class="fas fa-chevron-circle-down"></i>
+                            </a>
+                            <br><texttagsinger>4.44</texttagsinger>
+                        </div>
+                    </div>
+                    <div class="latest-releases-box">
+                        <div id="latest-releases-box-image">
+                            <a href="singlescreenplaylist.html">
+                                <img src="images\latest-release2.jfif">
+                            </a>
+                        </div>
+                        <div id="latest-releases-box-description">
+                            Sakhiyaan 2.0<br><texttagsinger>july 2021</texttagsinger>
+                        </div>
+                        <div id="latest-releases-box-timings">
+                            <a href="singlescreenplaylist.html">
+                                <i class="fas fa-chevron-circle-down"></i>
+                            </a>
+                            <br><texttagsinger>4.44</texttagsinger>
+                        </div>
+                    </div>
+                    <div class="latest-releases-box">
+                        <div id="latest-releases-box-image">
+                            <a href="singlescreenplaylist.html">
+                                <img src="images\latest-release3.jfif">
+                            </a>
+                        </div>
+                        <div id="latest-releases-box-description">
+                            Man Bharryaa 2.0 <br><texttagsinger>Aug 2021</texttagsinger>
+                        </div>
+                        <div id="latest-releases-box-timings">
+                            <a href="singlescreenplaylist.html">
+                                <i class="fas fa-chevron-circle-down"></i>
+                            </a>
+                            <br><texttagsinger>4.44</texttagsinger>
+                        </div>
+                    </div>
+                    <div class="latest-releases-box">
+                        <div id="latest-releases-box-image">
+                            <a href="singlescreenplaylist.html">
+                                <img src="images\latest-release4.jpg">
+                            </a>
+                        </div>
+                        <div id="latest-releases-box-description">
+                            Tip Tip Barsa<br><texttagsinger>Sep 2021</texttagsinger>
+                        </div>
+                        <div id="latest-releases-box-timings">
+                            <a href="singlescreenplaylist.html">
+                                <i class="fas fa-chevron-circle-down"></i>
+                            </a>
+                            <br><texttagsinger>4.44</texttagsinger>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- ......................................................POPULAR-ARTISTS........................... -->
+            <div id = "popular-artists">
+                <span id="player-headings">
+                   Popular Artists
+                </span>
+                <div id="singer-picture">
+                    <div id="singer-picture-img">
+                        <a href="#">
+                            <img src = "images\singer1.jfif">
+                        </a>
+                    </div> 
+                    <div id="span1">
+                        Arijit Singh
+                    </div>
+                </div>
+                
+                <div id="singer-picture">
+                    <div id="singer-picture-img">
+                        <a href="#">
+                            <img src = "images\singer2.jfif">
+                        </a>
+                    </div>
+                   
+                    <div id="span1">
+                        One Direction
+                    </div>
+                </div>
+               
+                <div id="singer-picture">
+                    <div id="singer-picture-img">
+                        <a href="#">
+                            <img src = "images\singer3.jfif">
+                        </a>
+                    </div>
+                    
+                    <div id="span1">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BTS
+                    </div>
+                </div>
+               
+                <div id="singer-picture">
+                    <div id="singer-picture-img">
+                        <a href="#">
+                            <img src = "images\singer4.jfif">
+                        </a>
+                    </div>
+                    
+                    <div id="span1">
+                        Eid Sheraan
+                    </div>
+                </div>
+               
+                <div id="singer-picture">
+                    <div  id="singer-picture-img">
+                        <a href="#">
+                            <img src = "images\singer5.jfif">
+                        </a>
+                    </div>
+                   
+                    <div id="span1">
+                        Justin Bieber
+                    </div>
+                </div>
+               
+            </div>
+<!-- .........................................................design one................................... -->
+            <div id = "design-one">
+                <div id = "design-one-box1">
+                    <a href="#">
+                        <img src = "images\Snowflake Music Player.gif">
+                    </a>
+                   
+                </div>
+                <div id="design-one-box2">
+                    <div id="design-one-box2-subboxes">
+                        <a href="#">
+                            <img src = "images\back-image1.jpg">
+                        </a>
+                        <p class = "design-two-gener-name">
+                            Love
+                        </p>
+                    </div>
+                    <div id="design-one-box2-subboxes">
+                        <a href="#">
+                            <img src = "images\design1.jpg">
+                        </a>
+                        <p class = "design-two-gener-name">
+                            Calm
+                        </p>
+                    </div>
+                    <div id="design-one-box2-subboxes">
+                        <a href="#">
+                            <img src = "images\landscape3.jpg">
+                        </a>
+                        <p class = "design-two-gener-name">
+                            Dance
+                        </p>
+                    </div>
+                    <div id="design-one-box2-subboxes">
+                        <a href="#">
+                            <img src = "images\design3.jpg">
+                        </a>
+                        <p class = "design-two-gener-name">
+                            HipHop
+                        </p>
+                    </div>
+                    <div id="design-one-box2-subboxes">
+                        <a href="#">
+                            <img src = "images\design4.jpg">
+                        </a>
+                        <p class = "design-two-gener-name">
+                           Workout
+                        </p>
+                    </div>
+                </div>
+            </div>
+<!-- .....................................................design two............................... -->
+            <div id="design-two">
+                <div id="songs-gener">
+                    <a href="#">
+                        <img src = "images\landscape1.jpg">
+                    </a>
+                    <p class="design-two-gener-name">
+                       Radio
+                    </p>
+                </div>
+                <div id="songs-gener">
+                    <a href="#">
+                        <img src = "images\landscape2.jpg">
+                    </a>
+                    <p class="design-two-gener-name">
+                        Calm
+                    </p>
+                </div>
+                
+                <div id="songs-gener">
+                    <a href="#">
+                        <img src = "images\landscape3.jpg">
+                    </a>
+                    <p class="design-two-gener-name">
+                       Road Trip
+                    </p>
+                </div>
+            </div>
+<!-- .................................................latest English............................... -->
+            <div id="latest-english">
+                <span id="player-headings">
+                   Latest English
+                 </span>
+                <div id="song-picture-english">
+                    
+                    <div id="latest-english-img">
+                        <a href="#">
+                            <img src = "images\landscape1.jpg">
+                             
+                        </a>  
+                        <a href = "#" class="play-button">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    
+                    <div id="latest-english-name">
+                       Legends<br><texttagsinger>Oct 2021</texttagsinger>
+                    </div>
+                </div>
+                <div id="song-picture-english">
+                    <div id="latest-english-img">
+                        <a href="#">
+                            <img src = "images\design4.jpg">
+                        </a>
+                        <a href = "#" class="play-button">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    <div id="latest-english-name">
+                        Coldplay<br><texttagsinger>Oct 2021</texttagsinger>
+                    </div>
+                </div>
+                <div id="song-picture-english">
+                    <div id="latest-english-img">
+                        <a href="#">
+                            <img src = "images\design1.jpg">
+                        </a>
+                       <a href = "#" class="play-button">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    <div id="latest-english-name">
+                        Waka Waka<br><texttagsinger>Oct 2021</texttagsinger>
+                    </div>
+                </div>
+                <div id="song-picture-english">
+                    <div id="latest-english-img">
+                        <a href="#">
+                            <img src = "images\landscape2.jpg">
+                        </a>
+                       <a href = "#" class="play-button">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    <div id="latest-english-name">
+                       Waving Flag<br><texttagsinger>Oct 2021</texttagsinger>
+                    </div>
+                </div>
+                <div id="song-picture-english">
+                    <div id="latest-english-img">
+                        <a href="#">
+                            <img src = "images\design3.jpg">
+                        </a>
+                       <a href = "#" class="play-button">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    <div id="latest-english-name">
+                       In The End<br><texttagsinger>Oct 2021</texttagsinger>
+                    </div>
+                </div>
+            </div>
+<!-- ................................................latest hindi.............................................. -->
+            <div id="latest-hindi">
+                <span id="player-headings">
+                    Latest Hindi
+                 </span>
+                 <div id="song-picture-english">
+                    <div id="latest-english-img">
+                        <a href="#">
+                            <img src = "images\landscape3.jpg">
+                        </a>
+                       <a href = "#" class="play-button">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    <div id="latest-english-name">
+                       Tune Kya Kiya<br><texttagsinger>Oct 2021</texttagsinger>
+                    </div>
+                </div>
+                <div id="song-picture-english">
+                    <div id="latest-english-img">
+                        <a href="#">
+                            <img src = "images\design4.jpg">
+                        </a>
+                       <a href = "#" class="play-button">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    <div id="latest-english-name">
+                        Humnava<br><texttagsinger>Oct 2021</texttagsinger>
+                    </div>
+                </div>
+                <div id="song-picture-english">
+                    <div id="latest-english-img">
+                        <a href="#">
+                            <img src = "images\design3.jpg">
+                        </a>
+                       <a href = "#" class="play-button">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    <div id="latest-english-name">
+                        Brothers<br><texttagsinger>Oct 2021</texttagsinger>
+                    </div>
+                </div>
+                <div id="song-picture-english">
+                    <div id="latest-english-img">
+                        <a href="#">
+                            <img src = "images\landscape1.jpg">
+                        </a>
+                       <a href = "#" class="play-button">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    <div id="latest-english-name">
+                       Raftaarein<br><texttagsinger>Oct 2021</texttagsinger>
+                    </div>
+                </div>
+                <div id="song-picture-english">
+                    <div id="latest-english-img">
+                        <a href="#">
+                            <img src = "images\design1.jpg">
+                        </a>
+                       <a href = "#" class="play-button">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    <div id="latest-english-name">
+                        Baari<br><texttagsinger>Oct 2021</texttagsinger>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- ........................................................ASIDE QUEUE SECTION................................................... -->
+        <aside>
+            <div id  = "aside-contianer">
+
+            
+                <div id="queue-top">
+                    <span id="queue-name">Queue</span>
+                <span id="queue-options">
+                    <lable for="queue">Queue</lable>
+                    <select name="queue" id="queue">
+                    <option value="playlist">Playlist</option>
+                    <option value="favourite-songs">Favourite Songs</option>
+                  </select></span>
+                </div>
+<!-- .......................................................SONGS-QUEUE................................................. -->
+                  <div class="songs-queue">
+                      <ol>
+                          <li>
+                            <div class="songs-queue-list">
+                               <div id="songs-queue-list-image">
+                                   <a href="#">
+                                    <img src="images\songs in queue images\song1.jpg">
+                                   </a>
+                                   <p  class="play-button-queue">
+                                    <a href = "#">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                   </p>
+                               </div>
+                                <div id="songs-queue-list-singer-name">
+                                    Dildaara<br><texttagsinger>Shafqat Amanat Ali</texttagsinger>
+                                </div>
+                                <div id="songs-queue-list-like-button">
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                </div>
+
+                              </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song2.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                     Tum Jo Aaye<br><texttagsinger>Pritam, Rahat Fateh Ali</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                                
+                            </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song3.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                    Qaafirana<br><texttagsinger>Arjit Singh, Nikita Gandhi</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                                
+                            </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song4.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                     Sparkle<br><texttagsinger>RADWIMPS</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                                
+                            </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song5.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                     Beliver<br><texttagsinger>Imagin Dragons</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                            
+                            </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song6.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                     Perfect<br><texttagsinger>One Direction</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                                 
+                            </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song7.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                     Let Me Down Slowly<br><texttagsinger>Alec Benjamin</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                                 
+                            </div>
+                          </li>
+                      <li>
+                        <div class="songs-queue-list">
+                            <div id="songs-queue-list-image">
+                                <a href="#">
+                                 <img src="images\songs in queue images\song8.jpg">
+                                </a>
+                                <p  class="play-button-queue">
+                                    <a href = "#">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                   </p>
+                            </div>
+                             <div id="songs-queue-list-singer-name">
+                                 Desh Mere<br><texttagsinger>Arjit Singh</texttagsinger>
+                             </div>
+                             <div id="songs-queue-list-like-button">
+                                 <a href="#"><i class="far fa-heart"></i></a>
+                             </div>
+                             
+                        </div>
+                      </li>
+                      <li>
+                        <div class="songs-queue-list">
+                            <div id="songs-queue-list-image">
+                                <a href="#">
+                                 <img src="images\songs in queue images\song9.jpg">
+                                </a>
+                                <p  class="play-button-queue">
+                                    <a href = "#">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                   </p>
+                            </div>
+                             <div id="songs-queue-list-singer-name">
+                                 Another Level<br><texttagsinger>Oh The Larceny</texttagsinger>
+                             </div>
+                             <div id="songs-queue-list-like-button">
+                                 <a href="#"><i class="far fa-heart"></i></a>
+                             </div>
+                             
+                        </div>
+                      </li>
+                      <li>
+                        <div class="songs-queue-list">
+                            <div id="songs-queue-list-image">
+                                <a href="#">
+                                 <img src="images\songs in queue images\song1.jpg">
+                                </a>
+                                <p  class="play-button-queue">
+                                    <a href = "#">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                   </p>
+                            </div>
+                             <div id="songs-queue-list-singer-name">
+                                 Dildaara<br><texttagsinger>Shafqat Amanat Ali</texttagsinger>
+                             </div>
+                             <div id="songs-queue-list-like-button">
+                                 <a href="#"><i class="far fa-heart"></i></a>
+                             </div>
+                           
+                        </div>
+                      </li>
+                      <li>
+                        <div class="songs-queue-list">
+                            <div id="songs-queue-list-image">
+                                <a href="#">
+                                 <img src="images\songs in queue images\song1.jpg">
+                                </a>
+                                <p  class="play-button-queue">
+                                    <a href = "#">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                   </p>
+                            </div>
+                             <div id="songs-queue-list-singer-name">
+                                 Dildaara<br><texttagsinger>Shafqat Amanat Ali</texttagsinger>
+                             </div>
+                             <div id="songs-queue-list-like-button">
+                                 <a href="#"><i class="far fa-heart"></i></a>
+                             </div>
+                             
+                        </div>
+                      </ol>
+                  </div>
+                </div>
+        </aside>
+    </main>
+<!-- .....................................................Player-controler...................................... -->
+    <div class="songs-player-control">
+        <div class="control-player-image">
+                <div class="image-controler">
+                    <img src = "images\songs in queue images\song1.jpg">
+                </div>
+           <div class="name-controler-song">
+               Legends<br>
+               <texttagsinger>Jack Sparow</texttagsinger>
+           </div>
+           <div id="controler-like-button">
+                <a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"> <i class="fas fa-ban"></i></a>
+               
+          </div>
+        
+        </div>
+        <div class="controls">
+            <div class = "play-pause-buttons">
+                <div class="play-buttons-list">
+                    <a href="#">
+                        <i class="fas fa-random"></i>
+                    </a>
+                </div>
+                <div class="play-buttons-list">
+                    <a href="#">
+                        <i class="fas fa-step-backward"></i>
+                    </a>
+                </div>
+                <div class="play-buttons-list">
+                    <a href="#">
+                        <i class="far fa-pause-circle"></i>
+                    </a>
+                </div>
+                <div class="play-buttons-list">
+                    <a href="#">
+                        <i class="fas fa-step-forward"></i>
+                    </a>
+                    
+                </div>
+                <div class="play-buttons-list">
+                    <a href="#">
+                        <i class="fas fa-redo-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class = "song-progress-bar">
+                <span>2:34 </span>
+                <span>
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </span>
+              
+                <span>5:08 </span>
+            </div>
+        </div>
+        <div class="control-sound">
+            <div class="vloume-div">
+                <a href = "#">
+                    <i class="fas fa-volume-up"></i>
+                </a>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            
+            
+        </div>
+
+    </div>
+</body>
+</html>
