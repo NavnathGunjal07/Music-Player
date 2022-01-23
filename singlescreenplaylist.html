@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c419c95711.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header id="body-header">
+        <div class="music-player-logo">
+                <div id ="logo-name">
+                    <t1>
+                        Snowflake
+                    </t1>
+                    <t2>
+                        Music
+                    </t2>
+                    <t3>
+                        Player
+                    </t3> 
+                </div>
+        </div>
+        
+        <div id ="favourites">
+            <a href="#">
+                Favourites
+            </a>
+           
+        </div>
+        <div id= "search-bar">
+            <div  id="search-bar-symbol">
+                <i class="fas fa-search"></i>
+            </div>
+            <div id="search-id">
+                <input type="text" placeholder="Search">
+            </div>
+             <div id = "search-bar-mic">
+                    <a href="#">
+                        <i class="fas fa-microphone"></i>
+                </a>
+             </div>
+          
+
+        </div>
+        <div id="notification-bar">
+            <a href = "#">
+                <i class="fas fa-bell"></i>
+            </a>
+        </div>
+        <div id="profile-photo">
+            <div id="profile-photo-img">
+                <a href="#">
+                    <img src = "images\circle-cropped1.png">
+                </a>
+            </div>
+           
+           
+        </div>
+    </header>
+
+    <main>
+        <section id = "main-section">
+            <div id="songs-container">
+                <div id="img-container">
+                    <img src="images\back-image1.jpg" alt="coldplay">
+                </div>
+                <div id="songs-container-info">
+                    <h3>Coldplay</h3>
+                    <p id = >
+                        Coldplay are a British rock band formed in London in 1996.<br>
+                         They consist of vocalist and pianist Chris Martin, guitarist Jonny Buckland,<br>
+                         bassist Guy Berryman, drummer Will Champion and creative director Phil Harvey.
+                    </p>
+                    <a id = "play-me" href="#">Play Me </a>
+                    <audio id = "play-song" controls>
+                        <source src="song\coldplay.mp3" type="audio/ogg">
+                    </audio>
+                </div>
+            </div>
+            <div id="playlist-container">
+                    
+            </div>
+        </section>
+        <aside>
+            <div id  = "aside-contianer">
+
+            
+                <div id="queue-top">
+                    <span id="queue-name">Queue</span>
+                <span id="queue-options">
+                    <lable for="queue">Queue</lable>
+                    <select name="queue" id="queue">
+                    <option value="playlist">Playlist</option>
+                    <option value="favourite-songs">Favourite Songs</option>
+                  </select></span>
+                </div>
+<!-- .......................................................SONGS-QUEUE................................................. -->
+                  <div class="songs-queue">
+                      <ol>
+                          <li>
+                            <div class="songs-queue-list">
+                               <div id="songs-queue-list-image">
+                                   <a href="#">
+                                    <img src="images\songs in queue images\song1.jpg">
+                                   </a>
+                                   <p  class="play-button-queue">
+                                    <a href = "#">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                   </p>
+                               </div>
+                                <div id="songs-queue-list-singer-name">
+                                    Dildaara<br><texttagsinger>Shafqat Amanat Ali</texttagsinger>
+                                </div>
+                                <div id="songs-queue-list-like-button">
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                </div>
+
+                              </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song2.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                     Tum Jo Aaye<br><texttagsinger>Pritam, Rahat Fateh Ali</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                                
+                            </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song3.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                    Qaafirana<br><texttagsinger>Arjit Singh, Nikita Gandhi</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                                
+                            </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song4.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                     Sparkle<br><texttagsinger>RADWIMPS</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                                
+                            </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song5.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                     Beliver<br><texttagsinger>Imagin Dragons</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                            
+                            </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song6.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                     Perfect<br><texttagsinger>One Direction</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                                 
+                            </div>
+                          </li>
+                          <li>
+                            <div class="songs-queue-list">
+                                <div id="songs-queue-list-image">
+                                    <a href="#">
+                                     <img src="images\songs in queue images\song7.jpg">
+                                    </a>
+                                    <p  class="play-button-queue">
+                                        <a href = "#">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                       </p>
+                                </div>
+                                 <div id="songs-queue-list-singer-name">
+                                     Let Me Down Slowly<br><texttagsinger>Alec Benjamin</texttagsinger>
+                                 </div>
+                                 <div id="songs-queue-list-like-button">
+                                     <a href="#"><i class="far fa-heart"></i></a>
+                                 </div>
+                                 
+                            </div>
+                          </li>
+                      <li>
+                        <div class="songs-queue-list">
+                            <div id="songs-queue-list-image">
+                                <a href="#">
+                                 <img src="images\songs in queue images\song8.jpg">
+                                </a>
+                                <p  class="play-button-queue">
+                                    <a href = "#">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                   </p>
+                            </div>
+                             <div id="songs-queue-list-singer-name">
+                                 Desh Mere<br><texttagsinger>Arjit Singh</texttagsinger>
+                             </div>
+                             <div id="songs-queue-list-like-button">
+                                 <a href="#"><i class="far fa-heart"></i></a>
+                             </div>
+                             
+                        </div>
+                      </li>
+                      <li>
+                        <div class="songs-queue-list">
+                            <div id="songs-queue-list-image">
+                                <a href="#">
+                                 <img src="images\songs in queue images\song9.jpg">
+                                </a>
+                                <p  class="play-button-queue">
+                                    <a href = "#">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                   </p>
+                            </div>
+                             <div id="songs-queue-list-singer-name">
+                                 Another Level<br><texttagsinger>Oh The Larceny</texttagsinger>
+                             </div>
+                             <div id="songs-queue-list-like-button">
+                                 <a href="#"><i class="far fa-heart"></i></a>
+                             </div>
+                             
+                        </div>
+                      </li>
+                      <li>
+                        <div class="songs-queue-list">
+                            <div id="songs-queue-list-image">
+                                <a href="#">
+                                 <img src="images\songs in queue images\song1.jpg">
+                                </a>
+                                <p  class="play-button-queue">
+                                    <a href = "#">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                   </p>
+                            </div>
+                             <div id="songs-queue-list-singer-name">
+                                 Dildaara<br><texttagsinger>Shafqat Amanat Ali</texttagsinger>
+                             </div>
+                             <div id="songs-queue-list-like-button">
+                                 <a href="#"><i class="far fa-heart"></i></a>
+                             </div>
+                           
+                        </div>
+                      </li>
+                      <li>
+                        <div class="songs-queue-list">
+                            <div id="songs-queue-list-image">
+                                <a href="#">
+                                 <img src="images\songs in queue images\song1.jpg">
+                                </a>
+                                <p  class="play-button-queue">
+                                    <a href = "#">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                   </p>
+                            </div>
+                             <div id="songs-queue-list-singer-name">
+                                 Dildaara<br><texttagsinger>Shafqat Amanat Ali</texttagsinger>
+                             </div>
+                             <div id="songs-queue-list-like-button">
+                                 <a href="#"><i class="far fa-heart"></i></a>
+                             </div>
+                             
+                        </div>
+                      </ol>
+                  </div>
+                </div>
+        </aside>
+    </main>
+    <script src = "script.js"></script>
+</body>
+</html>
